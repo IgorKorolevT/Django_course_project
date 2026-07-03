@@ -184,7 +184,7 @@ CELERY_RESULT_BACKEND = REDIS_URL
 CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
 
 # debug_tools
-INTERNAL_IPS = ["127.0.0.1", "192.168.50.16"]
+# INTERNAL_IPS = ["127.0.0.1", "192.168.50.16"]
 
 # Email
 # https://docs.djangoproject.com/en/5.1/topics/email/#defining-a-custom-email-backend
