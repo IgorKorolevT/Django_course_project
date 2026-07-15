@@ -18,6 +18,3 @@ def null_channel_name(sender, connection, **kwargs):
 class ComputerConfig(AppConfig):
     default_auto_field = "django.db.models.BigAutoField"
     name = "computer"
-
-    def ready(self):
-        connection_created.connect(null_channel_name)
